@@ -1,0 +1,24 @@
+# vsim -L altera_mf_ver ram32x4 
+# Start time: 20:32:51 on Nov 13,2018
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 20:32:51 on Nov 13,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+do ram32x4.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:33:26 on Nov 13,2018
+# vlog -reportprogress 300 -timescale 1ps/1ps ram32x4.v 
+# -- Compiling module ram32x4
+# 
+# Top level modules:
+# 	ram32x4
+# End time: 20:33:27 on Nov 13,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver ram32x4 
+# Start time: 20:33:27 on Nov 13,2018
+# Loading work.ram32x4
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
